@@ -1,6 +1,7 @@
 {
     "name": "rkarkut/subdir",
     "description": "SubDir example",
+    "type": "library",
     "authors": [
         {
             "name": "Radosław Karkut",
