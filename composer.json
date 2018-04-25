@@ -12,14 +12,17 @@
         }
     ],
     "require": {
-        "php": ">=5.5"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+        "php": ">=5.5",
+        "composer/installers": "~1.0"
     },
     "autoload": {
         "psr-4": {
             "SubDir\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "externals": ["vendor/package"]
         }
     }
 }
