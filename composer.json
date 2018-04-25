@@ -1,10 +1,6 @@
 {
     "name": "rkarkut/subdir",
-    "type": "library",
     "description": "SubDir example",
-    "keywords": ["subdir"],
-    "license": "MIT",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Radosław Karkut",
