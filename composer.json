@@ -1,0 +1,25 @@
+{
+    "name": "rkarkut/subdir",
+    "type": "library",
+    "description": "SubDir example",
+    "keywords": ["subdir"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Radosław Karkut",
+            "email": "kontakt@rkarkut.pl",
+            "homepage": "https://github.com/slummer87"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SubDir\\": "src/"
+        }
+    }
+}
