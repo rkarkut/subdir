@@ -10,17 +10,11 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
-        "composer/installers": "~1.0"
+        "php": ">=5.5"
     },
     "autoload": {
         "psr-4": {
             "SubDir\\": "src/"
-        }
-    },
-    "extra": {
-        "installer-paths": {
-            "externals": ["vendor/package"]
         }
     }
 }
