@@ -1,7 +1,7 @@
 {
     "name": "rkarkut/subdir",
     "description": "SubDir example",
-    "type": "library",
+    "type": "package",
     "authors": [
         {
             "name": "Radosław Karkut",
@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5"
+        "php": ">=7.0",
+        "gamez/typed-collection": "^2.0"
     },
     "autoload": {
         "psr-4": {
